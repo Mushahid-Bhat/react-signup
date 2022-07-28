@@ -45,7 +45,7 @@ const Register = () => {
         
         let item ={user,pwd}
         console.log(user,pwd)
-       let result=await fetch ("https://documenter.getpostman.com/view/15319677/UVe9RVBY",{
+       let result=await fetch ("https:5319677/UVe9RVBY",{
         method:'POST',
         body:JSON.stringify(item),
         headers:{

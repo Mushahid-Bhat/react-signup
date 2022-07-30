@@ -45,7 +45,7 @@ const Register = () => {
         
         let item ={user,pwd}
         console.log(user,pwd)
-       let result=await fetch ("https:5319677/UVe9RVBY",{
+       let result=await fetch ("https://api-scripture-iust-dev.herokuapp.com/v1/scripture/user/new",{
         method:'POST',
         body:JSON.stringify(item),
         headers:{
